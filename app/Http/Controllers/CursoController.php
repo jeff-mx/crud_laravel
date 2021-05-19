@@ -19,7 +19,7 @@ class CursoController extends Controller
     }
 
     public function show($variable){
-
+        
         return view('cursos.show', compact( 'variable' ) );
 
     }
